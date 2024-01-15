@@ -1,0 +1,2361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="navegacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblSitSeguranca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblSitSeguranca.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblSitSeguranca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 282</value>
+  </data>
+  <data name="lblSitSeguranca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="lblSitSeguranca.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblSitSeguranca.Name" xml:space="preserve">
+    <value>lblSitSeguranca</value>
+  </data>
+  <data name="&gt;&gt;lblSitSeguranca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSitSeguranca.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblSitSeguranca.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeslSeguranca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDeslSeguranca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDeslSeguranca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeslSeguranca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 253</value>
+  </data>
+  <data name="btnDeslSeguranca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDeslSeguranca.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnDeslSeguranca.Text" xml:space="preserve">
+    <value>DESLIGAR</value>
+  </data>
+  <data name="&gt;&gt;btnDeslSeguranca.Name" xml:space="preserve">
+    <value>btnDeslSeguranca</value>
+  </data>
+  <data name="&gt;&gt;btnDeslSeguranca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeslSeguranca.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;btnDeslSeguranca.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLigarSeguranca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigarSeguranca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigarSeguranca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigarSeguranca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 253</value>
+  </data>
+  <data name="btnLigarSeguranca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigarSeguranca.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnLigarSeguranca.Text" xml:space="preserve">
+    <value>LIGAR</value>
+  </data>
+  <data name="&gt;&gt;btnLigarSeguranca.Name" xml:space="preserve">
+    <value>btnLigarSeguranca</value>
+  </data>
+  <data name="&gt;&gt;btnLigarSeguranca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigarSeguranca.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;btnLigarSeguranca.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSeguranca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSeguranca.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSeguranca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblSeguranca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSeguranca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 263</value>
+  </data>
+  <data name="lblSeguranca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="lblSeguranca.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblSeguranca.Text" xml:space="preserve">
+    <value>Sistema -</value>
+  </data>
+  <data name="&gt;&gt;lblSeguranca.Name" xml:space="preserve">
+    <value>lblSeguranca</value>
+  </data>
+  <data name="&gt;&gt;lblSeguranca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSeguranca.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblSeguranca.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblHora.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblHora.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHora.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 20.25pt, style=Italic</value>
+  </data>
+  <data name="lblHora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 101</value>
+  </data>
+  <data name="lblHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 31</value>
+  </data>
+  <data name="lblHora.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblHora.Text" xml:space="preserve">
+    <value>HORÁRIO</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Name" xml:space="preserve">
+    <value>lblHora</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblHora.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSituacaoAlarme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSituacaoAlarme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 225</value>
+  </data>
+  <data name="lblSituacaoAlarme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="lblSituacaoAlarme.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblSituacaoAlarme.Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="&gt;&gt;lblSituacaoAlarme.Name" xml:space="preserve">
+    <value>lblSituacaoAlarme</value>
+  </data>
+  <data name="&gt;&gt;lblSituacaoAlarme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSituacaoAlarme.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblSituacaoAlarme.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLigarAlarme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigarAlarme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigarAlarme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigarAlarme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 164</value>
+  </data>
+  <data name="btnLigarAlarme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigarAlarme.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnLigarAlarme.Text" xml:space="preserve">
+    <value>DESLIGADO</value>
+  </data>
+  <data name="&gt;&gt;btnLigarAlarme.Name" xml:space="preserve">
+    <value>btnLigarAlarme</value>
+  </data>
+  <data name="&gt;&gt;btnLigarAlarme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigarAlarme.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;btnLigarAlarme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelAlarme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelAlarme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAlarme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="labelAlarme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAlarme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 182</value>
+  </data>
+  <data name="labelAlarme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="labelAlarme.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelAlarme.Text" xml:space="preserve">
+    <value>Alarme - </value>
+  </data>
+  <data name="&gt;&gt;labelAlarme.Name" xml:space="preserve">
+    <value>labelAlarme</value>
+  </data>
+  <data name="&gt;&gt;labelAlarme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAlarme.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;labelAlarme.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblUmidade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblUmidade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUmidade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblUmidade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUmidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 531</value>
+  </data>
+  <data name="lblUmidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="lblUmidade.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblUmidade.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblUmidade.Name" xml:space="preserve">
+    <value>lblUmidade</value>
+  </data>
+  <data name="&gt;&gt;lblUmidade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUmidade.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblUmidade.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblInfoPorta.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblInfoPorta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInfoPorta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblInfoPorta.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInfoPorta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 442</value>
+  </data>
+  <data name="lblInfoPorta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="lblInfoPorta.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblInfoPorta.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblInfoPorta.Name" xml:space="preserve">
+    <value>lblInfoPorta</value>
+  </data>
+  <data name="&gt;&gt;lblInfoPorta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfoPorta.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblInfoPorta.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblIncendio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblIncendio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIncendio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblIncendio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIncendio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 226</value>
+  </data>
+  <data name="lblIncendio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="lblIncendio.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblIncendio.Name" xml:space="preserve">
+    <value>lblIncendio</value>
+  </data>
+  <data name="&gt;&gt;lblIncendio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIncendio.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblIncendio.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblInfoIncendio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblInfoIncendio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInfoIncendio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblInfoIncendio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 366</value>
+  </data>
+  <data name="lblInfoIncendio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="lblInfoIncendio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblInfoIncendio.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblInfoIncendio.Name" xml:space="preserve">
+    <value>lblInfoIncendio</value>
+  </data>
+  <data name="&gt;&gt;lblInfoIncendio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfoIncendio.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblInfoIncendio.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblTituloGeral.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblTituloGeral.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTituloGeral.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblTituloGeral.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTituloGeral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lblTituloGeral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 34</value>
+  </data>
+  <data name="lblTituloGeral.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTituloGeral.Text" xml:space="preserve">
+    <value>INFORMAÇÕES GERAIS</value>
+  </data>
+  <data name="&gt;&gt;lblTituloGeral.Name" xml:space="preserve">
+    <value>lblTituloGeral</value>
+  </data>
+  <data name="&gt;&gt;lblTituloGeral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTituloGeral.Parent" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;lblTituloGeral.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pageRal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageRal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pageRal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageRal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pageRal.Text" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="&gt;&gt;pageRal.Name" xml:space="preserve">
+    <value>pageRal</value>
+  </data>
+  <data name="&gt;&gt;pageRal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageRal.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageRal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imgLed2Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed2Sala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed2Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 404</value>
+  </data>
+  <data name="imgLed2Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed2Sala.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed2Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Sala.Name" xml:space="preserve">
+    <value>imgLed2Sala</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Sala.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imgLed1Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed1Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 404</value>
+  </data>
+  <data name="imgLed1Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed1Sala.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed1Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Sala.Name" xml:space="preserve">
+    <value>imgLed1Sala</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Sala.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeslLed2Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDeslLed2Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDeslLed2Sala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeslLed2Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 303</value>
+  </data>
+  <data name="btnDeslLed2Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDeslLed2Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnDeslLed2Sala.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLed2Sala.Name" xml:space="preserve">
+    <value>btnDeslLed2Sala</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLed2Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLed2Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLed2Sala.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLigaLed2Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed2Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed2Sala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed2Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 303</value>
+  </data>
+  <data name="btnLigaLed2Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed2Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnLigaLed2Sala.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Sala.Name" xml:space="preserve">
+    <value>btnLigaLed2Sala</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Sala.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLed2Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed2Sala.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed2Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed2Sala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed2Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 313</value>
+  </data>
+  <data name="lblLed2Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed2Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLed2Sala.Text" xml:space="preserve">
+    <value>LED 2 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Sala.Name" xml:space="preserve">
+    <value>lblLed2Sala</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Sala.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnDesligaLed1Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLed1Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLed1Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 216</value>
+  </data>
+  <data name="btnDesligaLed1Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLed1Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnDesligaLed1Sala.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1Sala.Name" xml:space="preserve">
+    <value>btnDesligaLed1Sala</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1Sala.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLigaLed1Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed1Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed1Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 216</value>
+  </data>
+  <data name="btnLigaLed1Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed1Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnLigaLed1Sala.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Sala.Name" xml:space="preserve">
+    <value>btnLigaLed1Sala</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Sala.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLed1Sala.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed1Sala.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed1Sala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed1Sala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 234</value>
+  </data>
+  <data name="lblLed1Sala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed1Sala.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblLed1Sala.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Sala.Name" xml:space="preserve">
+    <value>lblLed1Sala</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Sala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Sala.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Sala.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSalaEstar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSalaEstar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSalaEstar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblSalaEstar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 107</value>
+  </data>
+  <data name="lblSalaEstar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="lblSalaEstar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSalaEstar.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - SALA DE ESTAR</value>
+  </data>
+  <data name="&gt;&gt;lblSalaEstar.Name" xml:space="preserve">
+    <value>lblSalaEstar</value>
+  </data>
+  <data name="&gt;&gt;lblSalaEstar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSalaEstar.Parent" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;lblSalaEstar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pageSala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pageSala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pageSala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageSala.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pageSala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageSala.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pageSala.Text" xml:space="preserve">
+    <value>Sala de Estar</value>
+  </data>
+  <data name="&gt;&gt;pageSala.Name" xml:space="preserve">
+    <value>pageSala</value>
+  </data>
+  <data name="&gt;&gt;pageSala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageSala.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageSala.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="imgLedQuartoA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLedQuartoA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLedQuartoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 301</value>
+  </data>
+  <data name="imgLedQuartoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLedQuartoA.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLedQuartoA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;imgLedQuartoA.Name" xml:space="preserve">
+    <value>imgLedQuartoA</value>
+  </data>
+  <data name="&gt;&gt;imgLedQuartoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLedQuartoA.Parent" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;imgLedQuartoA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeslLedA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDeslLedA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDeslLedA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeslLedA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 212</value>
+  </data>
+  <data name="btnDeslLedA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDeslLedA.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnDeslLedA.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLedA.Name" xml:space="preserve">
+    <value>btnDeslLedA</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLedA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLedA.Parent" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;btnDeslLedA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLigaLedQuartoA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLedQuartoA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLedQuartoA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLedQuartoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 212</value>
+  </data>
+  <data name="btnLigaLedQuartoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLedQuartoA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnLigaLedQuartoA.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedQuartoA.Name" xml:space="preserve">
+    <value>btnLigaLedQuartoA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedQuartoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedQuartoA.Parent" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedQuartoA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLedQuartoA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLedQuartoA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLedQuartoA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLedQuartoA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLedQuartoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 230</value>
+  </data>
+  <data name="lblLedQuartoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLedQuartoA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLedQuartoA.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLedQuartoA.Name" xml:space="preserve">
+    <value>lblLedQuartoA</value>
+  </data>
+  <data name="&gt;&gt;lblLedQuartoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLedQuartoA.Parent" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;lblLedQuartoA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbQuartoA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbQuartoA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbQuartoA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lbQuartoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 107</value>
+  </data>
+  <data name="lbQuartoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 34</value>
+  </data>
+  <data name="lbQuartoA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbQuartoA.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - QUARTO (PAIS)</value>
+  </data>
+  <data name="&gt;&gt;lbQuartoA.Name" xml:space="preserve">
+    <value>lbQuartoA</value>
+  </data>
+  <data name="&gt;&gt;lbQuartoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbQuartoA.Parent" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;lbQuartoA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pageQuartoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageQuartoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageQuartoA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pageQuartoA.Text" xml:space="preserve">
+    <value>Quarto A</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoA.Name" xml:space="preserve">
+    <value>pageQuartoA</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoA.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="imgLed2QuartoB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed2QuartoB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed2QuartoB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 454</value>
+  </data>
+  <data name="imgLed2QuartoB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed2QuartoB.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed2QuartoB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;imgLed2QuartoB.Name" xml:space="preserve">
+    <value>imgLed2QuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed2QuartoB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed2QuartoB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed2QuartoB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imgLed3QuartoB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed3QuartoB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed3QuartoB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 454</value>
+  </data>
+  <data name="imgLed3QuartoB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed3QuartoB.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed3QuartoB.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;imgLed3QuartoB.Name" xml:space="preserve">
+    <value>imgLed3QuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed3QuartoB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed3QuartoB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed3QuartoB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="imgLed1QuartoB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed1QuartoB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed1QuartoB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 454</value>
+  </data>
+  <data name="imgLed1QuartoB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed1QuartoB.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed1QuartoB.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;imgLed1QuartoB.Name" xml:space="preserve">
+    <value>imgLed1QuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed1QuartoB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed1QuartoB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;imgLed1QuartoB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnDesligaLed3QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLed3QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLed3QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLed3QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 382</value>
+  </data>
+  <data name="btnDesligaLed3QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLed3QB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnDesligaLed3QB.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed3QB.Name" xml:space="preserve">
+    <value>btnDesligaLed3QB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed3QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed3QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed3QB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDesligaLed2QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLed2QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLed2QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLed2QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 294</value>
+  </data>
+  <data name="btnDesligaLed2QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLed2QB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnDesligaLed2QB.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2QB.Name" xml:space="preserve">
+    <value>btnDesligaLed2QB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2QB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnDesligaLed1QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLed1QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLed1QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLed1QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 207</value>
+  </data>
+  <data name="btnDesligaLed1QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLed1QB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnDesligaLed1QB.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1QB.Name" xml:space="preserve">
+    <value>btnDesligaLed1QB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed1QB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLigaLed3QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed3QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed3QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed3QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 382</value>
+  </data>
+  <data name="btnLigaLed3QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed3QB.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnLigaLed3QB.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed3QB.Name" xml:space="preserve">
+    <value>btnLigaLed3QB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed3QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed3QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed3QB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnLigaLed2QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed2QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed2QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed2QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 294</value>
+  </data>
+  <data name="btnLigaLed2QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed2QB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnLigaLed2QB.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2QB.Name" xml:space="preserve">
+    <value>btnLigaLed2QB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2QB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnLigaLed1QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed1QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed1QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed1QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 207</value>
+  </data>
+  <data name="btnLigaLed1QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed1QB.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnLigaLed1QB.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1QB.Name" xml:space="preserve">
+    <value>btnLigaLed1QB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1QB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblLed3QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed3QB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed3QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed3QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed3QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 400</value>
+  </data>
+  <data name="lblLed3QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed3QB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblLed3QB.Text" xml:space="preserve">
+    <value>LED 3 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed3QB.Name" xml:space="preserve">
+    <value>lblLed3QB</value>
+  </data>
+  <data name="&gt;&gt;lblLed3QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed3QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;lblLed3QB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLed2QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed2QB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed2QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed2QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed2QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 312</value>
+  </data>
+  <data name="lblLed2QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed2QB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLed2QB.Text" xml:space="preserve">
+    <value>LED 2 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed2QB.Name" xml:space="preserve">
+    <value>lblLed2QB</value>
+  </data>
+  <data name="&gt;&gt;lblLed2QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed2QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;lblLed2QB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblLed1QB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed1QB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed1QB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed1QB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed1QB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 225</value>
+  </data>
+  <data name="lblLed1QB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed1QB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLed1QB.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed1QB.Name" xml:space="preserve">
+    <value>lblLed1QB</value>
+  </data>
+  <data name="&gt;&gt;lblLed1QB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed1QB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;lblLed1QB.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblQuartB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblQuartB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblQuartB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblQuartB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 111</value>
+  </data>
+  <data name="lblQuartB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 34</value>
+  </data>
+  <data name="lblQuartB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblQuartB.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - QUARTO (CRIANÇAS)</value>
+  </data>
+  <data name="&gt;&gt;lblQuartB.Name" xml:space="preserve">
+    <value>lblQuartB</value>
+  </data>
+  <data name="&gt;&gt;lblQuartB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblQuartB.Parent" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;lblQuartB.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pageQuartoB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageQuartoB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageQuartoB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pageQuartoB.Text" xml:space="preserve">
+    <value>Quarto B</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoB.Name" xml:space="preserve">
+    <value>pageQuartoB</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoB.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageQuartoB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="imgLedCozinha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLedCozinha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLedCozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 305</value>
+  </data>
+  <data name="imgLedCozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLedCozinha.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLedCozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;imgLedCozinha.Name" xml:space="preserve">
+    <value>imgLedCozinha</value>
+  </data>
+  <data name="&gt;&gt;imgLedCozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLedCozinha.Parent" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;imgLedCozinha.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDesligaLedCozinha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLedCozinha.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLedCozinha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLedCozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 223</value>
+  </data>
+  <data name="btnDesligaLedCozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLedCozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnDesligaLedCozinha.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCozinha.Name" xml:space="preserve">
+    <value>btnDesligaLedCozinha</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCozinha.Parent" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCozinha.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLigaLedCozinha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLedCozinha.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLedCozinha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLedCozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 223</value>
+  </data>
+  <data name="btnLigaLedCozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLedCozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnLigaLedCozinha.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCozinha.Name" xml:space="preserve">
+    <value>btnLigaLedCozinha</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCozinha.Parent" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCozinha.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLed1Cozinha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed1Cozinha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed1Cozinha.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed1Cozinha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed1Cozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 241</value>
+  </data>
+  <data name="lblLed1Cozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed1Cozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblLed1Cozinha.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Cozinha.Name" xml:space="preserve">
+    <value>lblLed1Cozinha</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Cozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Cozinha.Parent" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Cozinha.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCozinha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCozinha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCozinha.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblCozinha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 118</value>
+  </data>
+  <data name="lblCozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 34</value>
+  </data>
+  <data name="lblCozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblCozinha.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - COZINHA</value>
+  </data>
+  <data name="&gt;&gt;lblCozinha.Name" xml:space="preserve">
+    <value>lblCozinha</value>
+  </data>
+  <data name="&gt;&gt;lblCozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCozinha.Parent" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;lblCozinha.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pageCozinha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageCozinha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageCozinha.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pageCozinha.Text" xml:space="preserve">
+    <value>Cozinha</value>
+  </data>
+  <data name="&gt;&gt;pageCozinha.Name" xml:space="preserve">
+    <value>pageCozinha</value>
+  </data>
+  <data name="&gt;&gt;pageCozinha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageCozinha.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageCozinha.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="imgLedCorredor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLedCorredor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLedCorredor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 300</value>
+  </data>
+  <data name="imgLedCorredor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLedCorredor.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLedCorredor.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;imgLedCorredor.Name" xml:space="preserve">
+    <value>imgLedCorredor</value>
+  </data>
+  <data name="&gt;&gt;imgLedCorredor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLedCorredor.Parent" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;imgLedCorredor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDesligaLedCorredor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLedCorredor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLedCorredor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLedCorredor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 221</value>
+  </data>
+  <data name="btnDesligaLedCorredor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLedCorredor.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnDesligaLedCorredor.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCorredor.Name" xml:space="preserve">
+    <value>btnDesligaLedCorredor</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCorredor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCorredor.Parent" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLedCorredor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLigaLedCorredor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLedCorredor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLedCorredor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLedCorredor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 221</value>
+  </data>
+  <data name="btnLigaLedCorredor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLedCorredor.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnLigaLedCorredor.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCorredor.Name" xml:space="preserve">
+    <value>btnLigaLedCorredor</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCorredor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCorredor.Parent" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLedCorredor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLed1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 239</value>
+  </data>
+  <data name="lblLed1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblLed1.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed1.Name" xml:space="preserve">
+    <value>lblLed1</value>
+  </data>
+  <data name="&gt;&gt;lblLed1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed1.Parent" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;lblLed1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCorredor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCorredor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCorredor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblCorredor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCorredor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 116</value>
+  </data>
+  <data name="lblCorredor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="lblCorredor.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblCorredor.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - CORREDOR</value>
+  </data>
+  <data name="&gt;&gt;lblCorredor.Name" xml:space="preserve">
+    <value>lblCorredor</value>
+  </data>
+  <data name="&gt;&gt;lblCorredor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCorredor.Parent" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;lblCorredor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pageCorredor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageCorredor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageCorredor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pageCorredor.Text" xml:space="preserve">
+    <value>Corredor</value>
+  </data>
+  <data name="&gt;&gt;pageCorredor.Name" xml:space="preserve">
+    <value>pageCorredor</value>
+  </data>
+  <data name="&gt;&gt;pageCorredor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageCorredor.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageCorredor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="imgLed1Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed1Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed1Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 390</value>
+  </data>
+  <data name="imgLed1Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed1Banheiro.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed1Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Banheiro.Name" xml:space="preserve">
+    <value>imgLed1Banheiro</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;imgLed1Banheiro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imgLed2Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="imgLed2Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgLed2Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 390</value>
+  </data>
+  <data name="imgLed2Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="imgLed2Banheiro.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="imgLed2Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Banheiro.Name" xml:space="preserve">
+    <value>imgLed2Banheiro</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;imgLed2Banheiro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 302</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnDesligaLed2Banheiro.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2Banheiro.Name" xml:space="preserve">
+    <value>btnDesligaLed2Banheiro</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;btnDesligaLed2Banheiro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 302</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnLigaLed2Banheiro.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Banheiro.Name" xml:space="preserve">
+    <value>btnLigaLed2Banheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed2Banheiro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLed2Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed2Banheiro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed2Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed2Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed2Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 320</value>
+  </data>
+  <data name="lblLed2Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed2Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblLed2Banheiro.Text" xml:space="preserve">
+    <value>LED 2 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Banheiro.Name" xml:space="preserve">
+    <value>lblLed2Banheiro</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;lblLed2Banheiro.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 217</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnLDesligaLed1Banheiro.Text" xml:space="preserve">
+    <value>DESLIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLDesligaLed1Banheiro.Name" xml:space="preserve">
+    <value>btnLDesligaLed1Banheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLDesligaLed1Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLDesligaLed1Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLDesligaLed1Banheiro.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 14.25pt</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 217</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 44</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnLigaLed1Banheiro.Text" xml:space="preserve">
+    <value>LIGA</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Banheiro.Name" xml:space="preserve">
+    <value>btnLigaLed1Banheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;btnLigaLed1Banheiro.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLed1Banheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblLed1Banheiro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLed1Banheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 16pt</value>
+  </data>
+  <data name="lblLed1Banheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLed1Banheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 235</value>
+  </data>
+  <data name="lblLed1Banheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="lblLed1Banheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblLed1Banheiro.Text" xml:space="preserve">
+    <value>LED 1 -</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Banheiro.Name" xml:space="preserve">
+    <value>lblLed1Banheiro</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Banheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Banheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;lblLed1Banheiro.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblBanheiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblBanheiro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBanheiro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt, style=Italic</value>
+  </data>
+  <data name="lblBanheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBanheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 111</value>
+  </data>
+  <data name="lblBanheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 34</value>
+  </data>
+  <data name="lblBanheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblBanheiro.Text" xml:space="preserve">
+    <value>INFORMAÇÕES - BANHEIRO</value>
+  </data>
+  <data name="&gt;&gt;lblBanheiro.Name" xml:space="preserve">
+    <value>lblBanheiro</value>
+  </data>
+  <data name="&gt;&gt;lblBanheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBanheiro.Parent" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;lblBanheiro.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pageBanheiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="pageBanheiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 576</value>
+  </data>
+  <data name="pageBanheiro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pageBanheiro.Text" xml:space="preserve">
+    <value>Banheiro</value>
+  </data>
+  <data name="&gt;&gt;pageBanheiro.Name" xml:space="preserve">
+    <value>pageBanheiro</value>
+  </data>
+  <data name="&gt;&gt;pageBanheiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageBanheiro.Parent" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;pageBanheiro.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="navegacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="navegacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -2</value>
+  </data>
+  <data name="navegacao.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>9, 6</value>
+  </data>
+  <data name="navegacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 610</value>
+  </data>
+  <data name="navegacao.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;navegacao.Name" xml:space="preserve">
+    <value>navegacao</value>
+  </data>
+  <data name="&gt;&gt;navegacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navegacao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;navegacao.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="serialPort1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>808, 607</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAD/AAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AP8AAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAA
+        AP8AAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA/wAA
+        AP8AAAD/AAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAD/AAAAuwAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1wAAAP8AAAD/AAAAAAAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAD/AAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAP8AAAD/AAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AAD/+QAA/+UAAP+ZAAD/ZwAA818AAOxfAAAPnwAAi+cAAPL7AAD8lwAA/ycAAP/P
+        AAD//wAA//8AAA==
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Home Security System</value>
+  </data>
+  <data name="&gt;&gt;serialPort1.Name" xml:space="preserve">
+    <value>serialPort1</value>
+  </data>
+  <data name="&gt;&gt;serialPort1.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Formulario</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
